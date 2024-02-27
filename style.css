@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: repeating-linear-gradient(120deg, rgb(10, 10, 34), rgb(49, 15, 49));
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0 ;
+    position: sticky;
+}
+
+div {
+    border-style: none;
+}
+
+.conatiner {
+    background: repeating-linear-gradient(120deg, rgb(10, 10, 34), rgb(49, 15, 49));
+    min-height: 100vh;
+    max-height: max-content;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1px auto;
+    border: none;
+    outline: none;
+    padding: 2px 0
+}
+
+#Projects {
+    /* max-height: max-content; */
+    margin: 10px auto;
+    padding: 20px 20px;
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#Projects h1 {
+    font-family: Impact, sans-serif;
+    margin-bottom: 2px;
+    color: blanchedalmond;
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card {
+    max-height: fit-content;
+    max-width: fit-content;
+    margin: 15px 7px;
+}
+
+.partOne {
+    color: rgb(233, 72, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 60px;
+    flex-direction: column;
+}
+
+.partOne h1 {
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    color: whitesmoke;
+    font-size: 2.5rem
+}
+
+.parttwo {
+    padding: 2px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+    /* max-height: max-content; */
+    width: 100%;
+    /* padding-bottom: 10px; */
+    /* margin-bottom: 10px; */
+}
+
+.parttwo h1 {
+
+    font-family: Impact, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(8, 75, 39);
+    text-shadow: rgb(0, 0, 0) 2px 3px;
+    text-align: center;
+
+}
+
+.accordion {
+    /* margin: 8px 2px; */
+    width: 80%;
+    text-align: center;
+}
+
+.accordion button{
+    text-align: center;
+}
